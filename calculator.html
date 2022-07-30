@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/x-icon" href="src/favicon/ico.gif" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="calculator.css" rel="stylesheet" />
+    <title>Colite's Calculator</title>
+  </head>
+  <body>
+    <table class="tab">
+      <tr>
+        <td colspan="4">
+          <input
+            type="text"
+            id="hesap"
+            class="calci"
+            placeholder="8888888888"
+            maxlength="10"
+            disabled
+          />
+        </td>
+      </tr>
+      <tr>
+        <td class="spacedis"></td>
+      </tr>
+      <tr>
+        <td>
+          <button class="buttons" id="clear">
+            <img class="icon" src="./src/icons/c-solid.svg" />
+          </button>
+        </td>
+        <td>
+          <button class="buttons" id="percent">
+            <img class="icon" src="./src/icons/percent-solid.svg" />
+          </button>
+        </td>
+        <td>
+          <button class="buttons" id="divide">
+            <img class="icon" src="./src/icons/divide-solid.svg" />
+          </button>
+        </td>
+        <td>
+          <button class="buttons" id="multip">
+            <img class="icon" src="./src/icons/xmark-solid.svg" />
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button class="buttonss" id="yedi" value="7">
+            <img class="icon" src="./src/icons/7-solid.svg" />
+          </button>
+        </td>
+        <td>
+          <button class="buttonss" id="sekiz" value="8">
+            <img class="icon" src="./src/icons/8-solid.svg" />
+          </button>
+        </td>
+        <td>
+          <button class="buttonss" id="dokuz" value="9">
+            <img class="icon" src="./src/icons/9-solid.svg" />
+          </button>
+        </td>
+        <td>
+          <button class="buttons" id="minus">
+            <img class="icon" src="./src/icons/minus-solid.svg" />
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button class="buttonss" id="dort" value="4">
+            <img class="icon" src="./src/icons/4-solid.svg" />
+          </button>
+        </td>
+        <td>
+          <button class="buttonss" id="bes" value="5">
+            <img class="icon" src="./src/icons/5-solid.svg" />
+          </button>
+        </td>
+        <td>
+          <button class="buttonss" id="alti" value="6">
+            <img class="icon" src="./src/icons/6-solid.svg" />
+          </button>
+        </td>
+        <td>
+          <button id="plus" class="buttons">
+            <img class="icon" src="./src/icons/plus-solid.svg" />
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button class="buttonss" id="bir" value="1">
+            <img class="icon" src="./src/icons/1-solid.svg" />
+          </button>
+        </td>
+        <td>
+          <button class="buttonss" id="iki" value="2">
+            <img class="icon" src="./src/icons/2-solid.svg" />
+          </button>
+        </td>
+        <td>
+          <button class="buttonss" id="uc" value="3">
+            <img class="icon" src="./src/icons/3-solid.svg" />
+          </button>
+        </td>
+        <td rowspan="2">
+          <button id="equal" class="esittirs">
+            <img class="icon" src="./src/icons/equals-solid.svg" />
+          </button>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2">
+          <button class="sifirbuton" id="sifir" value="0">
+            <img class="icon" src="./src/icons/0-solid.svg" />
+          </button>
+        </td>
+        <td>
+          <button id="circle" value="." class="buttonss">
+            <img
+              class="icon"
+              src="./src/icons/circle-solid.svg"
+              style="width: 6px"
+              height="auto"
+            />
+          </button>
+        </td>
+      </tr>
+    </table>
+    <script src="calculator.js"></script>
+  </body>
+</html>

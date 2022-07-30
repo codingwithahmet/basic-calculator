@@ -1,0 +1,161 @@
+body {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  background-color: rgb(44, 44, 44);
+}
+@font-face {
+  font-family: displayfont;
+  src: url(digitalfont.ttf);
+}
+.calci {
+  font-family: displayfont;
+  font-size: 60px;
+  height: 80px;
+  width: 300px;
+  background-color: rgb(35, 35, 9);
+  color: green;
+  outline: none;
+  border: none;
+  margin: auto;
+  padding-left: 18px;
+  display: flex;
+  border: 8px solid black;
+  border-radius: 5px;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+.tab {
+  border-radius: 9px;
+  padding: 17px;
+  margin: auto;
+  background-color: rgb(66, 66, 66);
+  box-shadow: 8px 8px 16px;
+}
+.icon {
+  width: 25px;
+  height: 25px;
+}
+td {
+  padding: 5px;
+}
+.buttons {
+  box-shadow: 3px 3px 12px black;
+  width: 75px;
+  height: 75px;
+  border-radius: 40%;
+  color: rgb(237, 237, 237);
+  border: 0px;
+  background-color: rgb(99, 99, 99);
+  transition-duration: 0.2s;
+  outline: none;
+}
+.buttonss:active {
+  transition-duration: 0.2s;
+  opacity: 0.7;
+}
+
+.sifirbuton:active {
+  transition-duration: 0.2s;
+  opacity: 0.7;
+}
+
+.buttons:active {
+  transition-duration: 0.2s;
+  opacity: 0.7;
+}
+
+.esittirs:active {
+  transition-duration: 0.2s;
+  opacity: 0.7;
+}
+.buttonss {
+  outline: none;
+  transition-duration: 0.2s;
+  box-shadow: 3px 3px 12px black;
+  width: 75px;
+  height: 75px;
+  border-radius: 40%;
+  color: rgb(237, 237, 237);
+  border: 0px;
+  background-color: rgb(71, 71, 71);
+}
+.sifirbuton {
+  outline: none;
+  transition-duration: 0.2s;
+  box-shadow: 3px 3px 12px black;
+  width: 162px;
+  height: 75px;
+  border-radius: 25px;
+  color: rgb(237, 237, 237);
+  border: 0px;
+  background-color: rgb(71, 71, 71);
+}
+.esittirs {
+  outline: none;
+  transition-duration: 0.2s;
+  height: 170px;
+  width: 75px;
+  border-radius: 25px;
+  border: 0px;
+  color: rgb(237, 237, 237);
+  box-shadow: 3px 3px 12px black;
+  background-color: rgb(228, 169, 69);
+}
+.spacedis {
+  height: 10px;
+}
+
+/* .calci
+{
+    margin:auto;
+    display:flex;
+    margin-top:20px;
+    width:95%;
+    line-height:50px;
+    font-size:48px;
+    font-family:display;
+}
+.calci:focus
+{
+    outline: none;
+}
+button 
+{
+  width:100px;
+  height:70px;
+  background: rgb(41, 41, 41);
+  font-size:20px;
+  color:rgb(218, 218, 218);
+  border-spacing: 4px;
+  border-left:3px solid rgb(71, 43, 31);
+  border-right:3px solid rgb(71, 43, 31);
+  border-top:3px solid rgb(71, 43, 31);
+  border-bottom:5px solid rgb(71, 43, 31);
+  border-radius: 10px;
+}
+button:active
+{
+    border-left:1px solid rgb(71, 43, 31);
+    border-right:1px solid rgb(71, 43, 31);
+    border-top:1px solid rgb(71, 43, 31);
+    border-bottom:2px solid rgb(71, 43, 31);
+}
+table
+{
+    border:1px solid gray;
+    border-radius: 4px;
+    background-color:grey ;
+    margin: auto;
+    box-shadow: 10px 10px 5px rgb(53, 53, 53); 
+}
+.spacedis
+{
+    padding-top:30px;
+}
+.owner
+{
+    font-size:14px;
+    margin-left:3px;
+} */
